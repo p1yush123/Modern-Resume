@@ -24,7 +24,7 @@ $(document).ready(function(){
                 let displayedCount = +counter.innerText;
                 if(displayedCount < target) {
                     counter.innerText = Math.ceil(displayedCount + step);
-                    setTimeout(countIt, 10);
+                    setTimeout(countIt, 20);
                 } else {
                     counter.innerText = target;
                 }
