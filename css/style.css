@@ -438,5 +438,71 @@ section.work .wrapper .slider-wrapper .dots li.slick-active button{
     background: var(--info)0;
     width: 20px;
 }
+@media (max-width: 1280px){
+    .container{
+        max-width: 90%;
+    }
 }
+@media (max-width: 1024px){
+    section.profile {
+        flex-direction: column;
+        align-items: flex-start;
+        clip-path: none;
+    }
 
+    section.profile .left{
+        margin-bottom: 2rem;
+    }
+    section.profile .right{
+        align-self: flex-end;
+    }
+}
+@media (max-width: 970px){
+    section.skills .content{
+        display: bloack;
+    }
+}
+@media (max-width: 970px){
+    section.skills .content{
+        display: block;
+    }
+    section.skills .content .left{
+        margin-bottom: 6rem;
+    }
+}
+@media (max-width: 929px){
+    section.about .content{
+        display: block;
+    }
+    section.about .content .left{
+        margin-bottom: 6rem;
+        
+    }
+    section.about .content .right{
+        justify-content: center;
+    }
+    section.counter-wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    section.counter-wrapper > div {
+        margin-bottom: 2rem;
+    }
+}
+@media (max-width: 576px){
+    section.profile {
+        align-items: center;
+    }
+    section.profile .right{
+        align-self: center;
+    }
+    section.profile .left{
+        margin-bottom: 6rem;
+    }
+}
+@media (max-width: 970px){
+    section.skills .content .inner-right{
+        flex-wrap: wrap;
+    }
+}
