@@ -404,6 +404,12 @@ section.work .wrapper .slider-wrapper .slider .slide p{
     padding-top: 2rem;
     font-size: 2rem;
 }
+section.work .wrapper .slider-wrapper .slider .slide a i{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: var(--pure);
+}
 section.work .wrapper .slider-wrapper h2{
     color: var(--info);
     text-align: center;
@@ -436,7 +442,7 @@ section.work .wrapper .slider-wrapper .slider-dots button{
     cursor: pointer;
 }
 section.work .wrapper .slider-wrapper .dots li.slick-active button{
-    background: var(--info)0;
+    background: var(--info);
     width: 20px;
 }
 @media (max-width: 1280px){
